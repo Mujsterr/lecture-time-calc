@@ -1,0 +1,122 @@
+
+body {
+    margin: auto;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    background-image: url(astronomy.jpg);
+}
+header {
+        width:auto;
+        background-color:orange;
+        color: rgb(52, 111, 170);
+        padding: 30px;
+        margin: 0;
+        z-index: 2;
+        text-shadow: 2px 2.5px white;
+}
+
+.background {
+
+position: absolute;
+background-size: auto;
+display:block;
+top: 0;
+left: 0;
+z-index: -1;
+background-color: rgb(57, 126, 122);
+opacity: 85%;
+}
+
+.main{
+    padding: 30px;
+}
+
+.container:after {
+    float: center;
+    content: "";
+    display: table;
+    clear: both;
+    margin-top:10px ;
+    margin-bottom: 20px;
+    overflow: hidden;
+
+}
+ label{
+     font-family:  Helvetica, sans-serif;
+     font-weight: bold;
+     font-size: large;
+ }
+
+
+ input{
+    padding: 5px;
+}
+/* FUTURE IDEA: make output box auto-grow relative to the amount of input */
+#output{
+    width: 35%;
+    height: 5%;
+    text-align: center;
+}
+
+#output-container {
+
+    padding: 30px;
+    margin: auto;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+    width: 30%;
+    z-index: -1;
+    background-color:rgba(41, 82, 69, 0.75);
+
+
+}
+
+#watchtime:{
+    z-index: 4;
+
+}
+
+.labelinput {
+    padding-bottom: 10px;
+    color: white;
+}
+#ErrorText {
+    color: tomato;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.alert {
+    padding-top: 5px;
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+p.alert{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 6px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    background-color: rgba(230, 230, 66, 0.979);
+    border-left-style: solid ;
+    border-width: 5px;
+}
+
+span {
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+ text-align: center;
+ position: fixed;
+ padding: 20px;
+ background-color: orange;
+ color: rgb(58, 58, 58);
+ bottom: 0;
+ width: 100%;
+}
