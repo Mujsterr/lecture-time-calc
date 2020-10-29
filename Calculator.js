@@ -34,6 +34,11 @@ function myCalculator(){
         if (isNaN(numLect)){
             numLect = 1.0;
         } 
+        if ((numLect < 0) || (numHours < 0) || (numMin < 0) || (numSpeed < 0)){
+            $("#ErrorText").html("Please enter the amount of hours or minutes");
+            $("#output").html("");
+        } 
+
 
         if (isNaN(numSpeed)){
             numSpeed = 1.0;
