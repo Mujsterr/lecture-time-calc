@@ -39,7 +39,6 @@ function myCalculator(){
             $("#output").html("");
         } 
 
-
         if (isNaN(numSpeed)){
             numSpeed = 1.0;
         } 
